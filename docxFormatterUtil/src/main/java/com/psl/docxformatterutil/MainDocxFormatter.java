@@ -46,7 +46,6 @@ public class MainDocxFormatter {
 	private static void exampleToFormatDocumentGlobalStylesApproach() {
 
 		FormattingPerElementType formattingPerElemType = new FormattingPerElementType();
-
 		TextFormattingOptions formattingOptionsTitle = new TextFormattingOptions(true, true, false, "orange", true,
 				"Courier New", 36);
 		formattingPerElemType.addFormattingOptionsForElementType("Title", formattingOptionsTitle);
